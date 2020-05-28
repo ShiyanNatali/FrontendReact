@@ -143,7 +143,6 @@ export default class ContactBookForm extends Component {
                         onChange = {this.onPhoneChange}
                         title = '### ### ####'
                     />
-                    <br />
                     <button
                         disabled= {this.state.disabledButton}
                         type="submit"
@@ -216,6 +215,9 @@ const stylingForm ={
     padding: '1em',
     boxShadow:' 0px 0px 15px rgba(0, 0, 0, 0.22)',
     width: '90%',
+    display: 'flex',
+    justifyContent: 'flex-end',
+    flexWrap: 'wrap',
 }
 
 const stylingInput = {
