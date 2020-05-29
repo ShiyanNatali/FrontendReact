@@ -18,7 +18,7 @@ export default class ContactBook extends Component {
         });
     };
 
-    DeleteContact = (id) => {
+    deleteContact = (id) => {
         this.setState({
             contacts: this.state.contacts.filter((item) => item.id !== id),
         });
@@ -26,15 +26,13 @@ export default class ContactBook extends Component {
 
     render() {
         return (
-            <>
-                <div style={stylingDiv}>
-                    <ContactBookList 
-                        contacts={this.state.contacts}
-                        onDelete={this.DeleteContact} 
-                    />
-                    <ContactBookForm onSubmit={this.addNewContact}/> 
-                </div>
-            </>
+            <div style={stylingDiv}>
+                <ContactBookList 
+                    contacts={this.state.contacts}
+                    onDelete={this.deleteContact} 
+                />
+                <ContactBookForm onSubmit={this.addNewContact}/> 
+            </div>
         )
     }
 }
