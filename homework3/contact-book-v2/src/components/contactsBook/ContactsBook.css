@@ -1,0 +1,37 @@
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.contacts-button {
+	box-shadow: 0px 1px 0px 0px #a8cfc4;
+	background-color:#84c2b0;
+	border-radius:6px;
+	border:1px solid #95e2cc;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px -1px 0px #3ad6aa;
+}
+.contacts-button:hover {
+	background-color:#91d3c0;
+}
+.contacts-button:active {
+	position:relative;
+    top:1px;
+}
+
+.contacts-button:focus{
+    outline: none;
+}
+.contacts-button:disabled {
+    box-shadow: 0px 1px 0px 0px #ffffff;
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	background-color:#ffffff;
+	border:1px solid #dcdcdc;
+	color:#666666;
+    text-shadow:0px -1px 0px #ffffff;
+}

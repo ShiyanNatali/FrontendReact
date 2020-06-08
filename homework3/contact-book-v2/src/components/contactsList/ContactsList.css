@@ -1,0 +1,35 @@
+.contacts-list{
+    width: 60%;
+    border-collapse: collapse;
+    color: #686461;
+}
+.contacts-list th {
+    border-bottom: 3px solid #B9B29F;
+    padding: 10px;
+    text-align: left;
+}
+.contacts-list td {
+    padding: 5px;
+}
+
+.contacts-list tr:nth-child(odd) {
+    background: white;
+}
+
+.contacts-list tr:nth-child(even) {
+    background: #E8E6D1;
+}
+
+.contacts-list tbody > tr:hover {
+    background-color: lightgray;
+    cursor: pointer;
+}
+
+.contacts-list tfoot {
+    text-align: center;
+    padding: 10px;
+}
+
+.contacts-list tfoot > tr > td {
+    padding: 10px;
+}
