@@ -1,0 +1,24 @@
+.container-sticker {
+    position: absolute;
+    height: 200px;
+    background-color: wheat;
+    z-index: 0;
+}
+
+.container-sticker:active,
+.container-sticker:hover {
+    z-index: 1;
+}
+
+
+.delete {
+    margin:0 0.2em 0 0;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.move {
+    margin:0 13em 0 0.2em;
+    font-weight: bold;
+    cursor: move;
+}
