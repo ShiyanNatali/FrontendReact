@@ -225,7 +225,7 @@ const stylingInput = {
 	display: 'block',
 	width: '100%',
 	padding: '3%',
-	background: 'transpaent',
+	background: 'transparent',
 	marginBottom: '4%',
 	height: '45px',
 }
